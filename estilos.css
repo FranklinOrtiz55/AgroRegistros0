@@ -1,0 +1,253 @@
+
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#333;
+    font-size: 1.3rem;
+    line-height: 1.2em;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.main{
+    width: 90%;
+   /* max-width: 1200px;*/
+    /*display: flex;*/
+    padding-top: 1rem;
+    margin: 0 auto;
+}
+
+/* ESTILOS DEL FORMULARIO DE REGISTRO Y DE INGRESO*/
+
+form{
+    background-color: rgba(51, 51, 51, 0.678);
+    border-radius: 1.2em;
+    width: 100%;
+    margin: 0;
+    color: white;
+    padding: 0.9em;
+}
+
+#formIngreso{
+    /*float: right;*/
+    width: 30%;
+    /*box-sizing : border-box;*/
+    /*margin-right: 3em;*/
+    padding-top: 2.5rem;
+    
+
+}
+
+#formRegistro{
+    width: 35%;
+    margin-right: 3em;
+    padding-top: 2rem;
+
+}
+
+.campo{
+    border: o;
+    outline: none;
+    font-size: 1.3em;
+    width: 100%;
+    box-sizing: border-box;
+}
+.campo2{
+    font-size: 1.1em;
+    box-sizing: border-box;
+}
+
+fieldset{
+    border-radius: 0.7em;
+    box-sizing: border-box;
+    text-align: justify;
+
+}
+
+#Tratamiento{
+    height: 1.5em;
+    width: 1.5em;
+}
+
+
+
+
+
+/* ESTILOS PARA LOS BOTONES*/
+
+span{
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+ 
+}
+
+.btn{
+    border-radius: 0.5em;
+    font-size: 0.9em;
+    /*display: block;*/
+    padding: 0.5em 0.7em;
+    text-decoration: none;
+    text-shadow: 0 0.07em 0 rgba(22, 21, 21, 0.555);
+    box-shadow: 0 0.2em 0.2em rgba(0, 0, 0, 0.514);
+    transition: all 0.2s linear;
+    margin: 0.5em 0.7em;
+}
+
+.btn-green{
+    color:yellow;
+    background-color: rgba(51, 51, 51, 0.931);
+    
+}
+
+.btn-green:hover{
+    background-color: black;
+    transform: scale(1.2, 1.2);
+}
+
+
+
+
+
+
+/* INICIAN ESTILOS PARA PC*/
+
+@media (min-width: 1024px) {
+
+body{
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#333;
+    font-size: 1.3rem;
+    line-height: 1.2em;
+    margin: 0 auto;
+    }
+    .main{
+        width: 95%;
+       /* max-width: 1200px;*/
+        display: block;
+        justify-content: center;
+        padding-top: 3rem;
+        padding-bottom:1rem;
+        margin: 0 auto;
+       }
+
+
+    #formIngreso{
+        float: right;
+        width: 30%;
+        box-sizing : border-box;
+        /*margin-right: 1em;*/
+        padding-top: 2.5rem;
+    
+    }
+    form{
+        background-color: rgba(51, 51, 51, 0.678);
+        border-radius: 1.2em;
+        width: 100%;
+        margin: 0;
+        color: white;
+        padding: 0.9em;
+        
+    }
+
+p{
+    margin-bottom: 1.6rem;
+}
+
+.container{
+    float: left;
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 2em;
+    line-height: 1.1em;
+}
+
+h2{
+    font-size: 1.5em;
+    line-height: 1.1em;
+}
+
+/* ESTILOS PARA LA CABECERA*/
+
+.header{
+    background-color: rgba(51, 51, 51, 0.931);
+    color: white;
+    padding: 0.5rem 0;
+
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.logo-nav-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.logo{
+    letter-spacing: 0.5em;
+    font-size: 1.3em;
+}
+
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+    border-radius: 0.5em;
+}
+
+
+.navigation ul li a:hover{
+   background: black;
+   color: yellow;
+   transform: scale(1.2,  1.2);
+   
+}
+
+
+/* ESTILOS DEL FORMULARIO DE INGRESO*/
+
+
+
+
+}    /* terminan estilos PC*/
+
+
+
+
+/*ESTILOS DEL FOOTER*/
+
+.footer{
+    background: rgb(240, 151, 151);
+    color: whitesmoke;
+    padding: 1em 0;
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 2em;
+}

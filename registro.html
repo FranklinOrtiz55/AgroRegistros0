@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Usuario</title>
+    <link rel="Stylesheet" type="text/css" href="estilos2.css"/>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container logo-nav-container">
+           
+
+            <a href="#" class="logo">AGROREGISTROS</a>
+
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">Inicio</a> </li>
+                    <li><a href="#">Herramientas</a> </li>
+                    <li><a href="registro.html">Registro</a> </li>
+                   <!-- <li><a href="ingreso.html">Ingreso</a> </li> -->
+                    <li><a href="#">Contacto</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+    
+<div id="formRegistro">
+
+    <form method="POST" action="">
+
+    <p>
+        <label class="requerido" >(*)Campos Obligatorios</label> <br>
+        
+    </p>
+
+    <p>
+        <label class="campo2" for="Nombre_completo">*nombre: </label> <br>
+        <input class="campo" type="text" id="Nombre_completo" name="nombre" required>
+    </p>
+
+    <p>
+        <label class="campo2" for="Telefono_movil">Telefono Móvil</label> <br>
+        <input class="campo" type="text" id="Telefono_movil" name="Telefono_movil">
+    </p>
+
+    <p>
+        <label class="campo2" for="Correo_electronico">* Correo electronico</label> <br>
+        <input class="campo" type="email" id="Correo_electronico" name="Correo_electronico" required>
+    </p>
+
+    <p>
+        <label class="campo2" for="Confirmacion_Correo_electronico">* Confirmacion Correo </label> <br>
+        <input class="campo" type="email" id="Confirmacion_Correo_electronico" name="Confirmacion_Correo_electronico" required>
+    </p>
+
+    <p>
+        <label class="campo2" for="Contrasena">* Contraseña</label> <br>
+        <input class="campo" type="password" id="Contrasena" name="Contrasena" required>
+    </p>
+
+    <p>
+        <label class="campo2" for="Contrasena">* Confirme Contraseña</label> <br>
+        <input class="campo" type="password" id="Contrasena" name="Contrasena" required>
+
+   
+
+   
+
+    <fieldset>
+        <legend> <input type="checkbox" id="Tratamiento" name="Datos" value="Datos">
+            Consiento el tratamiento de mis datos personales
+        </legend>
+        * Sus datos seran tratados según la normatividad colombiana, ley 1581 de 2012 y decreto 1377 del 2013. <br>
+       
+        * Sus datos no seran compartidos con terceros sin su consentimiento.
+    </fieldset>
+
+
+    <p><input class="btn btn-green" type="submit" value="Enviar Datos"></p>
+</form>
+
+
+
+</div>
+
+</main>
+
+</body>
+<footer class="footer">
+        <p>
+            Sitio diseñado por Hitem SAS &copy;
+        </p>
+</footer>
+</html>
